@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/timnhat">
+
+    <ImageView
+        android:layout_marginTop="-250dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back_signup" />
+    <androidx.appcompat.widget.SearchView
+        android:layout_marginTop="10dp"
+        android:id="@+id/searchSach"
+        app:queryHint="Gõ vào tên sách"
+        app:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_sach"
+        />
+    <TextView
+        android:id="@+id/tvSLSach"
+        android:text="Số lượng sách: "
+        android:textColor="@color/timnhat"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+
+    <ListView
+        android:id="@+id/lvSach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="56dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="@color/cam"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+</FrameLayout>

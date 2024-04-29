@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nau">#A9907E</color>
+    <color name="background">#F3DEBA</color>
+    <color name="xanhla">#92ABC4AA</color>
+    <color name="naudam">#B4675D50</color>
+    <color name="tabbar">#675D50</color>
+    <color name="timthan">#6d6dbf</color>
+    <color name="cam">#fca968</color>
+    <color name="textcolor">#8e8e8e</color>
+    <color name="camdam">#835028</color>
+    <color name="theme">#E4E5E9</color>
+    <color name="timnhat">#f1e5ff</color>
+</resources>
